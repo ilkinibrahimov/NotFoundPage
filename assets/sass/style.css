@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgb(189, 14, 14);
+}
+section .header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  text-align: center;
+}
+section .header .time-404 {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section .header .time-404 h1 {
+  color: white;
+  font-size: 182px;
+  font-family: "Montserrat", sans-serif;
+}
+section .header .time-404 h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+section .header .time-404 .btns {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .header .time-404 .btns .btn {
+  color: rgba(255, 0, 36, 0.7);
+  background: #fff;
+  width: 150px;
+  height: 55px;
+  border-radius: 40px;
+  border: none;
+  padding: 13px;
+}
+section .header .time-404 .btns .btnn {
+  color: white;
+  background-color: rgb(189, 14, 14);
+  border-radius: 40px;
+  width: 150px;
+  height: 55px;
+  border: 1px solid white;
+}
+section .header .time-404 .contact {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 23px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
